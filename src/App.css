@@ -1,0 +1,54 @@
+.h2{
+  text-align: center;
+}
+
+.color{
+    min-height: 100vh;
+    flex-direction: column;
+    
+    font-size: calc(10px + 2vmin);
+    color: white;
+    
+}
+#centro{
+  margin: auto;
+  max-width: 940px;
+  
+  font-family:Lato, sans-serif;
+  font-weight: 500;
+  justify-content: center;
+  background-color: rgba(114, 178, 231, 0.6);
+}
+body{
+  background-image: url("./componentes/imag/pups.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.input{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-bottom: 0.2rem;
+    padding: 0.0rem 0.0rem;
+    width: 40%;
+}
+
+.button{
+  background-color: rgb(35, 32, 219);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 0.5rem 1rem;
+  width: fit-content;
+}
+
+
+.fondo{
+  background-color: 114178231;
+}
